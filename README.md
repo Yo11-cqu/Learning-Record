@@ -55,9 +55,8 @@ cd Part1
 
 ```bash
 cd student_management
-cd build
-
-./bin/student_doc_management
+cd build/bin
+./student_doc_system
 ```
 
 ---
