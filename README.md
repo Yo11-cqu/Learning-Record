@@ -21,8 +21,6 @@ Learning-Record/
 ├── student_management/             # 第 4 次作业：学生信息管理系统
 │   ├── include/                    # 头文件目录
 │   ├── src/                        # 源文件目录
-│   ├── build/                      # 构建目录
-│   │   └── bin/                    # 可执行文件目录
 │   ├── CMakeLists.txt              # CMake 构建配置文件
 │   └── README.md                   # 子项目说明文档
 │
@@ -51,12 +49,15 @@ cd Part1
 
 ### 学生信息管理系统
 
-进入构建目录后运行程序：
+编译并运行程序：
 
 ```bash
 cd student_management
-cd build/bin
-./student_doc_system
+mkdir build
+cd build
+cmake ..
+make
+./bin/student_doc_system
 ```
 
 ---
