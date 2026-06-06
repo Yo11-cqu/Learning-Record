@@ -1,0 +1,28 @@
+# C++编译产物
+*.o
+*.d
+*.so
+*.a
+*.out
+*.exe
+*.dll
+*.lib
+
+# 可执行文件（Linux下没有后缀）
+**/class1
+**/class2
+**/main
+**/hello
+
+# CMake构建目录
+build/
+cmake-build-*/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# VSCode配置文件
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
