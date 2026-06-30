@@ -54,7 +54,7 @@ int main()
         if( i < 30){
             out.write(frame);
             i++;
-        }
+        } 
     }
 
     cap.release();
