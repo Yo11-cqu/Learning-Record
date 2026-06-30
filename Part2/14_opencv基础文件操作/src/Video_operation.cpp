@@ -56,7 +56,6 @@ int main()
             i++;
         }
     }
-    cout<<i<<endl;
 
     cap.release();
     out.release();
